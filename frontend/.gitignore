@@ -7,16 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Python
-.venv/
-__pycache__/
-*.py[cod]
-
-# Node
-node_modules/
-frontend/node_modules/
-/frontend/dist/
-
+node_modules
 dist
 dist-ssr
 *.local
@@ -31,6 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# Large 3D model assets (keep locally, don't push)
-frontend/public/models/*.glb
